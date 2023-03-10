@@ -1,0 +1,22 @@
+StackImplementation Time complexity
+
+       The time complexity of the code snippet is O(1) for all the operations - push, pop, and top.
+
+This is because the implementation of the Stack class is based on a LinkedList data structure, which provides constant time complexity for adding and removing elements from the beginning of the list (i.e., addFirst() and removeFirst() methods).
+
+As a result, regardless of the size of the stack, the time taken to perform these operations remains constant. Therefore, the time complexity of this code snippet is O(1).       
+
+
+
+
+
+
+
+
+
+
+QUeueImplementation Time Complexity
+
+           The time complexity of enqueue() and dequeue() methods in the Queue class is O(1), which means they take constant time to execute regardless of the size of the queue.
+
+The time complexity of the main() method is O(1) because it only calls enqueue(), dequeue(), and print statements a fixed number of times. Thus, the overall time complexity of the given code is O(1).
